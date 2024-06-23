@@ -1,8 +1,1 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Entrevista-React-Frontend Historia de usuario Una empresa quiere mostrarle una tabla de datos solo a usuarios registrados en web. Para esto requiere una página de login que autentifique a los usuarios autorizados antes de mostrarle la data sensible. También quiere que esta tabla tenga como mínimo 100 registros y que se muestren con paginación y filtros de búsqueda y orden.
