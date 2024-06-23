@@ -1,0 +1,57 @@
+/* Navbar */
+.navbar-toggler-container {
+    position: relative; /* Asegura que los elementos secundarios sean relativos a este contenedor */
+}
+  
+.navbar-toggler-container .collapse {
+    max-height: 0; /* Altura máxima inicial, el menú estará oculto */
+    overflow-y: hidden; /* Oculta el desbordamiento vertical del menú */
+transition: max-height 0.3s ease-in-out; /* Agrega una transición suave */
+}
+  
+.navbar-toggler-container.show .collapse {
+    max-height: 100vh; /* Altura máxima cuando el menú se muestra */
+}
+  
+
+
+/* Components /Main */
+.main-container {
+    background-color: rgb(255, 255, 255);
+    color: rgb(16, 15, 15); /* Cambiar el color del texto a blanco (opcional) */
+    padding: 20px; /* Agregar espacio alrededor del contenido (opcional) */
+    margin-top: 35px;/*Agrega un margen superior igual a la altura del Navbar*/
+    margin-bottom: 50px;
+}
+
+
+/* contacto-leters */
+.custom-text {
+    color: white;
+    font-weight: bold;
+    font-size: 1.25rem; /* Puedes ajustar el valor para hacer la letra más grande o más pequeña */
+}
+
+
+/* styles de letra */
+.styleOfLetter {
+    /* syle of letter */
+    font-family: "Times New Roman", Times, serif;
+    font-size: 25px;
+    text-align: justify;
+    color: rgb(15, 15, 15);
+}
+
+/* Estilos para los enlaces generados por Link */
+.link-custom {
+    text-decoration: none; /* Quita el subrayado */
+    color: inherit; /* Hereda el color del texto principal */
+}
+
+/* BUTTON Search */
+.custom-input:focus {
+    border-color: #28a745; /* Cambia el color a verde (#28a745) cuando está enfocado */
+    box-shadow: 0 0 0 0.25rem rgba(40, 167, 69, 0.25); /* Cambia el estilo del sombreado (box-shadow) */
+}
+
+

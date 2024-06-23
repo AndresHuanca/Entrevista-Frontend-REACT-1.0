@@ -1,0 +1,72 @@
+/* Login and Register */
+.login-container{
+    margin-top: 4%;
+    margin-bottom: 38%;
+}
+
+.login-form-1{
+    border-radius: 5px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgb(40, 94, 20);
+    padding: 0%;
+}
+.login-form-1 h3{
+    text-align: center;
+    color: #fcfafa;
+}
+.login-form-2{
+    border-radius: 5px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+    padding: 0%;
+    background: #ffffff;
+}
+.login-form-2 h3{
+    text-align: center;
+    color: #fff;
+}
+.login-container form{
+    padding: 7%;
+}
+.btnSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    border: none;
+    margin: 0px 10px;
+}
+.login-form-1 .btnSubmit{
+    color: #fff;
+    background-color: #3c7f31;
+    margin-top: 5%;
+}
+.login-form-2 .btnSubmit{
+    background-color: #3c7f31;
+    color: #ffffff;
+} 
+.login-form-2 .ForgetPwd{
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+} 
+.login-form-1 .ForgetPwd{
+    color: #0062cc;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* Loading */
+.loading {
+    background-color: black; /* Establece el fondo en negro */
+    color: white; /* Establece el color de texto en blanco o el que desees */
+    animation-name: animate__fadeIn;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+}
+
+/* IMAGE MAIN */
+.main-containers {
+    background-image: url('../../../public/02.png');
+    background-size: cover; /* Para ajustar la imagen al tamaño del contenedor */
+    background-repeat: no-repeat; /* Para que la imagen no se repita */
+    /* Otros estilos de fondo que desees agregar */
+}
